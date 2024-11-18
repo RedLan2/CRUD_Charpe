@@ -1,0 +1,79 @@
+@model CRUD.Models.ClienteModelView
+<html> 
+    <link rel="stylesheet" href="/wwwroot/lib/bootstrap/dist/css/extends.css" />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model=>model.Clientes[0].Id)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model=>model.Clientes[0].Nome)
+            </th>
+
+             <th>
+                @Html.DisplayNameFor(model=>model.Clientes[0].Numero)
+            </th>
+            <th>
+                 @Html.DisplayNameFor(model=>model.Clientes[0].Email)
+            </th>
+            <th>
+
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model.Clientes){
+            <tr>
+                <td>
+                    @Html.DisplayFor(model => item.Id)
+                </td>
+                 <td>
+                    @Html.DisplayFor(model => item.Nome)
+                </td>
+                 <td>
+                    @Html.DisplayFor(model => item.Numero)
+                </td>
+               
+                <td>
+                    @Html.DisplayFor(model => item.Email)
+                 </td>
+                 <td>
+                    <a asp-action="Editar" asp-route-id="@item.Id" class="btn btn-primary">Editar</a>
+                    <form asp-action="Deletar" asp-route-id="@item.Id" method="post" onsubmit="return confirm('Tem certeza que deseja deletar este cliente?');">
+                    <button type="submit" class="btn btn-danger">Deletar</button>
+                    </form>
+                </td>
+            </tr>
+            
+        }
+    </tbody>
+  <nav aria-label="Navegação de página exemplo">
+    <ul class="pagination">
+        @if (Model.PageNumber > 1)
+        {
+            <li class="page-item">
+                <a class="page-link" asp-action="Listagem" asp-route-pageNumber="@(Model.PageNumber - 1)" asp-route-pageQuantity="@Model.PageQuantity">Anterior</a>
+            </li>
+        }
+
+        @for (int i = 1; i <= Model.TotalPages; i++)
+        {
+            <li class="page-item @(i == Model.PageNumber ? "active" : "")">
+                <a class="page-link" asp-action="Listagem" asp-route-pageNumber="@i" asp-route-pageQuantity="@Model.PageQuantity">@i</a>
+            </li>
+        }
+
+        @if(Model.PageNumber < Model.TotalPages)
+        {
+            <li class="page-item">
+                <a class="page-link" asp-action="Listagem" asp-route-pageNumber="@(Model.PageNumber + 1)" asp-route-pageQuantity="@Model.PageQuantity">Próximo</a>
+            </li>
+        }
+    </ul>
+</nav>
+
+</table>
+ 
+</html>

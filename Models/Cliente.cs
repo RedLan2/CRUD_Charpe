@@ -18,5 +18,8 @@ namespace CRUD.Models
 
             public virtual ICollection<Veiculo> Veiculo { get; set; }
             public  Endereco endereco { get; set; }
+             public ICollection<Produto> Produtos { get; set; }
+            
+            
     }
 }

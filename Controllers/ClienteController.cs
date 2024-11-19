@@ -20,15 +20,22 @@ namespace CRUD.Controllers
         }
         [HttpGet]
           public IActionResult Index()
-    {
-        return View();
-    }
-         [HttpPost]
+            {
+                return View();
+            }
+
+        [HttpPost]
         public IActionResult Create(Cliente cliente)
         {
                 _context.Cliente.Add(cliente);
                 _context.SaveChanges();
                 return RedirectToAction(nameof(Index));
+        }
+        [HttpPost("produto")]
+        public IActionResult CreateProduto(Produto produto){
+            _context.Produto.Add(produto);
+            _context.SaveChanges();
+            return RedirectToAction(nameof(Index));
         }
 
         [HttpPost("veiculo")]

@@ -8,53 +8,53 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CRUD
 build_property.RootNamespace = CRUD
-build_property.ProjectDir = C:\Users\EMANOEL EDVAN\Desktop\programas\C_sharpe\CRUD\
+build_property.ProjectDir = c:\Users\EMANOEL EDVAN\Desktop\programas\C_sharpe\CRUD\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\EMANOEL EDVAN\Desktop\programas\C_sharpe\CRUD
+build_property.MSBuildProjectDirectory = c:\Users\EMANOEL EDVAN\Desktop\programas\C_sharpe\CRUD
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/EMANOEL EDVAN/Desktop/programas/C_sharpe/CRUD/Views/Cliente/editar.cshtml]
+[c:/Users/EMANOEL EDVAN/Desktop/programas/C_sharpe/CRUD/Views/Cliente/editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxlZGl0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EMANOEL EDVAN/Desktop/programas/C_sharpe/CRUD/Views/Cliente/endereco.cshtml]
+[c:/Users/EMANOEL EDVAN/Desktop/programas/C_sharpe/CRUD/Views/Cliente/endereco.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxlbmRlcmVjby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EMANOEL EDVAN/Desktop/programas/C_sharpe/CRUD/Views/Cliente/Index.cshtml]
+[c:/Users/EMANOEL EDVAN/Desktop/programas/C_sharpe/CRUD/Views/Cliente/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EMANOEL EDVAN/Desktop/programas/C_sharpe/CRUD/Views/Cliente/listagem.cshtml]
+[c:/Users/EMANOEL EDVAN/Desktop/programas/C_sharpe/CRUD/Views/Cliente/listagem.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxsaXN0YWdlbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EMANOEL EDVAN/Desktop/programas/C_sharpe/CRUD/Views/Home/Index.cshtml]
+[c:/Users/EMANOEL EDVAN/Desktop/programas/C_sharpe/CRUD/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EMANOEL EDVAN/Desktop/programas/C_sharpe/CRUD/Views/Home/Privacy.cshtml]
+[c:/Users/EMANOEL EDVAN/Desktop/programas/C_sharpe/CRUD/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EMANOEL EDVAN/Desktop/programas/C_sharpe/CRUD/Views/Shared/Error.cshtml]
+[c:/Users/EMANOEL EDVAN/Desktop/programas/C_sharpe/CRUD/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EMANOEL EDVAN/Desktop/programas/C_sharpe/CRUD/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/EMANOEL EDVAN/Desktop/programas/C_sharpe/CRUD/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EMANOEL EDVAN/Desktop/programas/C_sharpe/CRUD/Views/_ViewImports.cshtml]
+[c:/Users/EMANOEL EDVAN/Desktop/programas/C_sharpe/CRUD/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EMANOEL EDVAN/Desktop/programas/C_sharpe/CRUD/Views/_ViewStart.cshtml]
+[c:/Users/EMANOEL EDVAN/Desktop/programas/C_sharpe/CRUD/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EMANOEL EDVAN/Desktop/programas/C_sharpe/CRUD/Views/Shared/_Layout.cshtml]
+[c:/Users/EMANOEL EDVAN/Desktop/programas/C_sharpe/CRUD/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-layzia8bah

@@ -16,6 +16,7 @@ namespace CRUD.Contexto
          public DbSet<Cliente> Cliente { get; set; }
          public DbSet<Veiculo> Veiculo{get; set;}
          public DbSet<Endereco> Endereco { get; set; }
+         public DbSet<Produto> Produto {get; set;}
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         // Configuração da relação 1:N
@@ -28,6 +29,14 @@ namespace CRUD.Contexto
            .HasOne(c => c.endereco) 
            .WithOne(e => e.cliente) 
            .HasForeignKey<Endereco>(e => e.ClienteId);
+
+          modelBuilder.Entity<Cliente>()
+            .HasMany(c => c.Produtos)
+            .WithMany(p => p.Clientes)
+            .UsingEntity<Dictionary<string, object>>(
+            "ClienteProduto", // Nome da tabela de junção
+            j => j.HasOne<Produto>().WithMany().HasForeignKey("ProdutoId"),
+            j => j.HasOne<Cliente>().WithMany().HasForeignKey("ClienteId"));
 
     }
 
